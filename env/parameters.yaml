@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:kickermad/adminUser:password
+  username: admin
+dashboardAuthID: vault:kickermad:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:kickermad:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:kickermad/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:kickermad/prow:hmacToken
